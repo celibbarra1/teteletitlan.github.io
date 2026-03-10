@@ -1,29 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<title>San Lucas Teteletitlán</title>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>San Lucas Teteletitlán</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
-<h1>Bienvenidos a San Lucas Teteletitlán</h1>
+<header>
+    <h1>Bienvenido a San Lucas Teteletitlán</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#lugares">Lugares Turísticos</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
 
-<p>Descubre la magia, cultura y tradiciones.</p>
+<section id="inicio">
+    <h2>Descubre la Magia</h2>
+    <p>Un destino lleno de cultura, historia y tradiciones.</p>
+</section>
 
-<h2>Lugares turísticos</h2>
-<img src="imagenes/plaza.jpg" width="400">
+<section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Encuéntranos en el corazón de México.</p>
 
-<h2>Eventos</h2>
-<ul>
-<li> </li>
-<li>Feria patronal - Octubre</li>
-</ul>
+    <iframe 
+        src="https://www.google.com/maps/embed"
+        width="600"
+        height="450"
+        style="border:0;"
+        allowfullscreen="">
+    </iframe>
+</section>
 
-<h2>Videos</h2>
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/VIDEOID">
-</iframe>
+<section id="lugares">
+    <h2>Lugares Turísticos</h2>
+
+    <div class="card">
+        <h3>Iglesia Principal</h3>
+        <p>Un hermoso templo histórico en el centro del pueblo.</p>
+    </div>
+
+    <div class="card">
+        <h3>Mirador</h3>
+        <p>Un lugar perfecto para ver todo el paisaje.</p>
+    </div>
+
+</section>
+
+<section id="noticias">
+    <h2>Noticias</h2>
+
+    <article>
+        <h3>Festival Cultural 2026</h3>
+        <p>Este verano se realizará el festival cultural con música y gastronomía.</p>
+    </article>
+
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <p>Email: turismo@pueblomagico.com</p>
+</section>
+
+<footer>
+    <p>© 2026 Pueblo Mágico</p>
+</footer>
 
 </body>
 </html>
