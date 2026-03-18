@@ -75,6 +75,10 @@ height:200px;
 object-fit:cover;
 }
 
+.galeria{
+  display:none;
+}
+
 form{
 display:flex;
 flex-direction:column;
